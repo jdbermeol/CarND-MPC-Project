@@ -44,6 +44,8 @@ The kinematic model includes the vehicle's x and y coordinates, orientation angl
 Actuator outputs are acceleration and delta (steering angle).
 ### Update equations
 
+![equations](./equations.png)
+
 ## MPC N and dt
 ### dt
 Delta time was choose to be 0.1s in order to easily implement latency strategy explain [here](#mpc-lattency-strategy)
